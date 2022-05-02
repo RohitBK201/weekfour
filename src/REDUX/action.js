@@ -8,3 +8,17 @@ export const addTodo = (data) =>{
     }
 
 } 
+
+export const SORT = "SORT"
+
+export const sortby = (by) =>{
+
+
+    return{
+
+        type:SORT,
+        payload : by,
+
+    }
+
+}
